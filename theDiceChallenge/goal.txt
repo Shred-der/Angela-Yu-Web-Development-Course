@@ -1,0 +1,5 @@
+The goal of the project is to create a website with a dice game of two players (Player 1 and 2);
+the website will start with a refresh me state and tell the user to refresh the website to (roll the dice)... 
+when the website refreshes the dice is rolled at a random and the outcome is displayed with the winner indicated as the player with the highest dice number
+
+First, we have to get 6 dice images from 1 - 6

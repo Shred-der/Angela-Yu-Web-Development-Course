@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(45deg, #0B6623, #1B8B3B, #0B6623, #2E8B57);
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #FFD700;
+    margin: 0;
+    padding: 50px 0;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+h1 {
+    font-size: 80px;
+    margin: 30px 0;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8),
+                 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px 0;
+}
+
+.img-container img {
+    width: 150px;
+    height: 150px;
+}
+
+p {
+    font-size: 20px;
+    color: #DDD;
+    font-family: "Bitcount Grid Double", system-ui;
+
+}
+
